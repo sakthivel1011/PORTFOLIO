@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>SAKTHISTEVE - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!--for skill icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Responsive Hamburger Menu Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">My Portfolio</a>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Achievements">Achievements</a>
+      <a href="#Contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+ <!-- Header -->
+<header id="Home" class="relative mt-0" style="margin-top: -16px;">
+  <div class="bg-gradient-to-r from-blue-900 to-gray-900 text-white py-10 md:py-20">
+    <div class="container mx-auto text-center">
+      <!-- Your photo with round border and white color -->
+      <img src="me1.jpg" alt="Sakthivel" class="rounded-full border-4 border-white mx-auto w-32 h-32 md:w-48 md:h-48 mb-6">
+
+      <!-- Main content -->
+      <div class="container">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          Hello, I'm Sakthivel
+        </h1>
+        <p class="text-lg leading-relaxed mb-8">
+          Passionate Software Engineer with expertise in <br>
+          <span class="font-bold">Web Development</span>, <span class="font-bold">Mobile App Development</span>, and <span class="font-bold">Machine Learning</span>.
+        </p>
+
+        
+      </div>
+
+      <!-- Social media icons -->
+      <div class="flex justify-center items-center mt-8">
+        <a href="https://www.linkedin.com/in/sakthivel-p-043b5425b/" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/sakthivel1011" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://www.instagram.com/sakthisteve_/" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100068885364816" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a href="mailto:sakthivel.p1011@gmail.com" class="text-white hover:text-blue-500 mx-4">
+          <i class="fas fa-envelope fa-lg"></i>
+        </a>
+      </div><br><br>
+      <!-- Call to action button -->
+        <a href="https://drive.google.com/file/d/1mx5ABAarozDC2G0zCXd6PNHcLJirSQKB/view?usp=sharing" class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full shadow-lg transition duration-300 text-lg md:text-xl">
+          View Resume
+        </a>
+    </div>
+  </div>
+</header>
+
+
+   <!-- About Section -->
+<section id="About" class="py-20 bg-gray-100" style="background-color: #f7f7f7; color: #000000">
+  <div class="container mx-auto flex flex-wrap items-center justify-between">
+    <!-- About Me Paragraph -->
+    <div class="w-full px-4">
+      <center>
+        <h2 class="text-3xl lg:text-4xl font-semibold mb-6 text-gray-800">About</h2>
+      </center>
+      <p class="text-lg lg:text-xl leading-relaxed text-gray-700">
+        I am Sakthivel, a dedicated and versatile software engineer with a passion for creating innovative solutions. With expertise in Java and proficiency in front-end development tools such as HTML, CSS, and JavaScript, I bring a wealth of technical knowledge to every project I undertake. My solid foundation in SQL allows me to excel in database management and design, ensuring robust and efficient systems.
+      </p>
+      <p class="text-lg lg:text-xl leading-relaxed text-gray-700 mt-4">
+        Beyond technical skills, I possess strong leadership abilities and effective time management skills, enabling me to lead teams and projects effectively. I thrive in collaborative environments where I can leverage my expertise to drive innovative solutions and deliver results that exceed expectations.
+      </p>
+      <p class="text-lg lg:text-xl leading-relaxed text-gray-700 mt-4">
+        Let's connect and explore how we can collaborate to achieve your goals.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+
+    <section id="Skills" class="py-10 md:py-20">
+      <div class="container mx-auto">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">
+          Professional Skills
+        </h2>
+        <br /><br />
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Java -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fab fa-java text-red-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Java</span>
+          </div>
+          <!-- HTML/CSS -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fas fa-code text-blue-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">HTML/CSS</span>
+          </div>
+          <!-- JavaScript -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fab fa-js text-yellow-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">JavaScript</span>
+          </div>
+          <!-- Python -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fab fa-python text-green-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Python</span>
+          </div>
+          <!-- Problem Solving -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fas fa-brain text-purple-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Problem Solving</span>
+          </div>
+          <!-- MySQL -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fas fa-database text-orange-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">MySQL</span>
+          </div>
+          <!-- Time Management -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="far fa-clock text-pink-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects" class="py-10 md:py-20 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">
+          Projects
+        </h2>
+        <br /><br />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Project 1: Snack game using Python -->
+          <div class="flex flex-col bg-white p-4 md:p-6 rounded-lg shadow-md">
+            <img src="snakegame.jpg" alt="Project 1" class="rounded-lg mb-4" />
+            <h3 class="text-lg md:text-xl font-semibold mb-2">
+              Snake game using Python
+            </h3>
+            <p class="text-sm md:text-base">
+              This project is a simple snake game developed using Python. It
+              involves controlling a snake to eat food and grow while avoiding
+              obstacles.
+            </p>
+            <!-- Python Icon and GitHub Link -->
+            <div class="flex justify-between items-center mt-4">
+              <i class="fab fa-python text-green-500 text-4xl"></i>
+              <a
+                href="https://github.com/sakthivel1011/SnackGame"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+              >
+                <i
+                  class="fab fa-github text-gray-600 hover:text-gray-900 text-4xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <!-- Project 2: Basic Calculator using Java AWT and Swing -->
+          <div class="flex flex-col bg-white p-4 md:p-6 rounded-lg shadow-md">
+            <img src="project2.jpg" alt="Project 2" class="rounded-lg mb-4" />
+            <h3 class="text-lg md:text-xl font-semibold mb-2">
+              Basic Calculator using Java AWT and Swing
+            </h3>
+            <p class="text-sm md:text-base">
+              This project is a basic calculator application developed using
+              Java AWT and Swing. It provides simple arithmetic operations in a
+              user-friendly interface.
+            </p>
+
+            <!-- Java Icon and GitHub Link -->
+
+            <div class="flex justify-between items-center mt-4">
+              <i class="fab fa-java text-red-500 text-4xl"></i>
+              <a
+                href="https://github.com/sakthivel1011/simplecalculator"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+              >
+                <i
+                  class="fab fa-github text-gray-600 hover:text-gray-900 text-4xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3:  Java Todo List with AWT and Swing-->
+          <div class="flex flex-col bg-white p-4 md:p-6 rounded-lg shadow-md">
+            <img src="ToDoList.jpg" alt="Project 1" class="rounded-lg mb-4" />
+            <h3 class="text-lg md:text-xl font-semibold mb-2">
+              Java Todo List with AWT and Swing
+            </h3>
+            <p class="text-sm md:text-base">
+This project is JavaTodo: featuring a simple user interface, it's a straightforward task organizer. Utilizing AWT and Swing libraries, it offers an easy-to-use platform for efficient task management.
+          <!-- Java Icon and GitHub Link -->
+            <div class="flex justify-between items-center mt-4">
+              <i class="fab fa-java text-red-500 text-4xl"></i>
+              <a
+                 href="https://github.com/sakthivel1011/todolist"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+              >
+                <i
+                  class="fab fa-github text-gray-600 hover:text-gray-900 text-4xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4: Library Management System with Python -->
+          <div class="flex flex-col bg-white p-4 md:p-6 rounded-lg shadow-md">
+            <img src="library management system.jpg" alt="Project 1" class="rounded-lg mb-4" />
+            <h3 class="text-lg md:text-xl font-semibold mb-2">
+               Library Management System with Python
+            </h3>
+            <p class="text-sm md:text-base">
+              Efficiently manage library resources with our Python-based Library Management System. Track books, issue, return, and update details effortlessly. Powered by Tkinter for user-friendly interface.
+            </p>
+            <!-- Python Icon and GitHub Link -->
+            <div class="flex justify-between items-center mt-4">
+              <i class="fab fa-python text-green-500 text-4xl"></i>
+              <a
+                href="https://github.com/sakthivel1011/Library-Management-System-with-Python"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+              >
+                <i
+                  class="fab fa-github text-gray-600 hover:text-gray-900 text-4xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+
+<section id="Achievements" class="py-10 md:py-20 bg-gray-100">
+  <div class="container mx-auto">
+    <h2 class="text-3xl md:text-4xl font-semibold mb-8 text-center">
+      Achievements
+    </h2>
+
+    <!-- Grid for Achievements -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <!-- Achievement 1 -->
+      <div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">Internship</h3>
+        <img src="certificate(NSIC).jpg" alt="Achievement 1" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+        <p class="mb-6">
+          Successfully completed virtual internship training on <span style="font-weight: bold">Android application development</span> with IoT conducted by the National Small Industries Corporation Limited (NSIC), a Government of India enterprise, showcasing proficiency in simple applications.
+        </p>
+        <button onclick="toggleCertificate('certificate1')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+        <!-- Certificate Pop-up (Hidden by Default) -->
+        <div id="certificate1" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+          <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+            <img src="certificate(NSIC).jpg" alt="Certificate 1" class="max-w-full mb-4">
+            <button onclick="toggleCertificate('certificate1')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 2 -->
+      <div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">Internship</h3>
+        <img src="certificate(Brassy Technologies).jpg" alt="Achievement 2" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+        <p class="mb-6">
+          Completed a one-week internship at Brazy Technologies, gaining practical experience in <span style="font-weight: bold">web development</span> technologies and methodologies, including HTML, CSS, and JavaScript.
+        </p>
+        <button onclick="toggleCertificate('certificate2')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+        <!-- Certificate Pop-up (Hidden by Default) -->
+        <div id="certificate2" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+          <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+            <img src="certificate(Brassy Technologies).jpg" alt="Certificate 2" class="max-w-full mb-4">
+            <button onclick="toggleCertificate('certificate2')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 3 -->
+      <div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+        <img src="certificate(ML).jpg" alt="Achievement 3" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+        <p class="mb-6">
+          Completed <span style="font-weight: bold">Machine Learning</span> courses by Infosys Springboard.
+        </p>
+        <button onclick="toggleCertificate('certificate3')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+        <!-- Certificate Pop-up (Hidden by Default) -->
+        <div id="certificate3" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+          <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+            <img src="certificate(ML).jpg" alt="Certificate 3" class="max-w-full mb-4">
+            <button onclick="toggleCertificate('certificate3')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 4 -->
+      <div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+        <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+        <img src="certificate(IBM).jpg" alt="Achievement 4" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+        <p class="mb-6">
+          Completed IBM <span style="font-weight: bold">Cloud courses</span> by IBM.
+        </p>
+        <button onclick="toggleCertificate('certificate4')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+        <!-- Certificate Pop-up (Hidden by Default) -->
+        <div id="certificate4" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+          <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+            <img src="certificate(IBM).jpg" alt="Certificate 4" class="max-w-full mb-4">
+            <button onclick="toggleCertificate('certificate4')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement 5 -->
+<div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+  <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+  <img src="certificate(Pythonfordatascience).jpg" alt="Achievement 5" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+  <p class="mb-6">
+    Completed <span style="font-weight: bold">Python for data science</span> course by Infosys Springboard.
+  </p>
+  <button onclick="toggleCertificate('certificate5')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+  <!-- Certificate Pop-up (Hidden by Default) -->
+  <div id="certificate5" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+    <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+      <img src="certificate(Pythonfordatascience).jpg" alt="Certificate 5" class="max-w-full mb-4">
+      <button onclick="toggleCertificate('certificate5')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 6 -->
+<div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+  <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+  <img src="certificate(Introduction to Artificial Intelligence).jpg" alt="Achievement 6" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+  <p class="mb-6">
+    Completed <span style="font-weight: bold">Introduction to Artificial intelligence</span> by Infosys Springboard.
+  </p>
+  <button onclick="toggleCertificate('certificate6')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+  <!-- Certificate Pop-up (Hidden by Default) -->
+  <div id="certificate6" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+    <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+      <img src="certificate(Introduction to Artificial Intelligence).jpg" alt="Certificate 6" class="max-w-full mb-4">
+      <button onclick="toggleCertificate('certificate6')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 7 -->
+<div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+  <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+  <img src="certificate(introduction to Cyber Security).jpg" alt="Achievement 7" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+  <p class="mb-6">
+    Completed Introduction to <span style="font-weight: bold">Cyber security</span> by Infosys Springboard.
+  </p>
+  <button onclick="toggleCertificate('certificate7')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+  <!-- Certificate Pop-up (Hidden by Default) -->
+  <div id="certificate7" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+    <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+      <img src="certificate(introduction to Cyber Security).jpg" alt="Certificate 7" class="max-w-full mb-4">
+      <button onclick="toggleCertificate('certificate7')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+    </div>
+  </div>
+</div>
+
+<!-- Achievement 8 -->
+<div class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg">
+  <h3 class="text-xl md:text-2xl font-semibold mb-4">Technical Quiz</h3>
+  <img src="techquiz.jpg" alt="Achievement 8" class="border-4 border-gray-300 w-32 h-32 sm:w-48 sm:h-48 mb-4">
+  <p class="mb-6">
+    I attained the <span style="font-weight: bold">runner-up position in a technical quiz</span> at JP College of Engineering, showcasing my proficiency in various technical subjects. This achievement reflects my commitment to academic excellence and problem-solving skills.
+  </p>
+  <button onclick="toggleCertificate('certificate8')" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4">View Certificate</button>
+  <!-- Certificate Pop-up (Hidden by Default) -->
+  <div id="certificate8" class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center">
+    <div class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6">
+      <img src="techquiz.jpg" alt="Certificate 8" class="max-w-full mb-4">
+      <button onclick="toggleCertificate('certificate8')" class="absolute top-0 right-0 m-4 text-gray-700">&times;</button>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+    <!--contact form-->
+
+    <form
+      id="Contact"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      class="container mx-auto max-w-md p-4 bg-white rounded-lg shadow-lg"
+    >
+      <h2 class="text-2xl font-semibold mb-4">
+        <span style="font-weight: bolder">Contact</span>
+      </h2>
+      <br /><br />
+
+      <input
+        type="hidden"
+        name="access_key"
+        value="f361bb1f-4fda-4aaa-9e85-6520ff416b9a"
+      />
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-700">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="4"
+          class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+        ></textarea>
+      </div>
+      <button
+        type="submit"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        Submit Form
+      </button>
+    </form>
+    <br /><br /><br />
+
+    <!-- Footer Section -->
+<!-- Footer Section -->
+<footer class="bg-gray-800 text-white py-4 text-center">
+  <div class="container mx-auto">
+    <p class="text-lg"> &copy; 2024 All rights reserved. </p>
+    <p class="text-sm mt-2"> Portfolio designed by Sakthi </p>
+    <!-- Social media icons -->
+      <div class="flex justify-center items-center mt-8">
+        <a href="https://www.linkedin.com/in/sakthivel-p-043b5425b/" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/sakthivel1011" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://www.instagram.com/sakthisteve_/" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100068885364816" target="_blank" class="text-white hover:text-blue-500 mx-4">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a href="mailto:sakthivel.p1011@gmail.com" class="text-white hover:text-blue-500 mx-4">
+          <i class="fas fa-envelope fa-lg"></i>
+        </a>
+      </div>
+  </div>
+</footer>
+
+
+    <script src="script.js"></script>
+
+    <!--scroll to top button-->
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+     <i class="fas fa-arrow-up"></i>
+    </button>
+
+</html>
